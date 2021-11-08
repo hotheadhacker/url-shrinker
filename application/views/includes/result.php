@@ -5,7 +5,7 @@
     <?php echo $this->input->post('urlField'); ?>
     <br />
     <!-- The text field -->
-    <input type="text" value=<?php echo $url;?> class="m-4" disabled="disabled" id="myInput">
+    <input type="text" value="https://url.isalman.xyz/<?php echo $url;?>"" class="m-4" disabled="disabled" id="myInput">
 
     <!-- The button used to copy the text -->
     <button class="btn btn-success" onclick="myFunction()">Copy URL</button>
